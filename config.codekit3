@@ -23,10 +23,10 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/bower_components": {
+	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/docs\/bower_components",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -158,7 +158,7 @@
 	"displayValue": "labsjs",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 523883800
+	"lastBuiltDate": 523884186
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -406,7 +406,7 @@
 		},
 	"babelPresetType": 193,
 	"babelRetainLines": 0,
-	"bowerAbbreviatedPath": "bower_components",
+	"bowerAbbreviatedPath": "docs\/bower_components",
 	"bowerAutoCreateInfoFile": 1,
 	"bowerInstallDevDependencies": 0,
 	"bowerSaveDependencies": 1,
