@@ -1,0 +1,144 @@
+$thrifter-smile-size: 114px;
+.thrifter-smile {
+  background: transparent;
+  display: inline-block;
+  margin: 0;
+  width: $thrifter-smile-size * 2;
+  height: $thrifter-smile-size;
+  border: 30px solid #fff;
+  border-top: 0;
+  border-bottom-left-radius: $thrifter-smile-size * 2;
+  border-bottom-right-radius: $thrifter-smile-size * 2;
+}
+
+.thrifter-wave {
+  position: relative;
+
+  &:before {
+    left: 0;
+    top: -10%;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    content: '';
+    background-image: url('thrifter-wave-sm.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: top center;
+    animation: thrifter-wave 15s linear infinite;
+    background-position: 0 0;
+    overflow: hidden;
+    p & {
+      top: 0;
+      height: 25%;
+    }
+  }
+  @keyframes thrifter-wave {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 200px 0;
+    }
+  }
+}
+
+.thrifter-wave--separater {
+  margin: 10px 0;
+  min-height: 20px;
+  &:before {
+    height: 100%;
+  }
+}
+
+.thrifter-wave--thin {
+  &:before {
+    background-image: url('thrifter-wave-sm-thin.png');
+  }
+}
+
+.thrifter-wave-inview {
+  position: relative;
+
+  &:before {
+    top: -10%;
+    position: absolute;
+    height: 30%;
+    content: '';
+    background: url('thrifter-wave-sm.png') top repeat-x;
+    background-size: contain;
+    background-position: 0 0;
+    overflow: hidden;
+    width: 0px;
+    transition: width 1s;
+    transform: translate3d(0);
+    p & {
+      top: 0;
+      height: 25%;
+    }
+  }
+  &.thrifter-wave-inview--active:before {
+    transition: width 2s;
+    width: 100%;
+  }
+}
+.thrifter-hero-wave {
+  margin: 100px auto;
+  background: url('thrifter-hero-wave.png') repeat-x;
+  width: 100%;
+  height: 468px;
+  animation: thrifter-hero-wave 50s linear infinite;
+  background-position: 0 0;
+  @keyframes thrifter-hero-wave {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 100px 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+}
+.thrifter-hero-wave__container {
+  position: relative;
+  text-align: left;
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 1000px;
+}
+.thrifter-hero-wave__img {
+  width: auto;
+  height: 292px;
+}
+.thrifter-hero-wave__lines {
+  position: absolute;
+  margin: -100px 0 0 0;
+  top: 50%;
+  left: 300px;
+  animation: thrifter-hero-wave__lines-lines 5s linear infinite;
+}
+.thrifter-hero-wave__lines-line {
+  display: table;
+  width: auto;
+  padding: 0 15px 5px 15px;
+  color: #1A1A1A;
+  font-family: "PxGrotesk-Light";
+  font-size: 34px;
+  line-height: 38px;
+  background: #fff;
+  margin: 3px;
+}
+
+@keyframes thrifter-hero-wave__lines-lines {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
