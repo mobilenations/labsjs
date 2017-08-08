@@ -1,0 +1,2 @@
+$(function(){function i(){var i=$(window).scrollTop();$.each(e,function(){$(this).isInViewport()&&i>=t?$(this).addClass("thrifter-wave-inview--active"):$(this).removeClass("thrifter-wave-inview--active")}),t=i}var t=0,e=$(".thrifter-wave-inview");$(window).on("resize scroll",i),$.fn.isInViewport=function(){var i=$(this).offset().top,t=i+$(this).outerHeight(),e=$(window).scrollTop(),n=e+$(window).height();return t>e&&i<n}});
+//# sourceMappingURL=./waves-min.js.map
