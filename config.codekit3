@@ -12,13 +12,13 @@
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/.gitignore",
+		"oAP": "\/docs\/.gitignore",
 		"oF": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/dist\/bower-min.json",
+		"oAP": "\/docs\/bower-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -26,13 +26,7 @@
 	"\/bower_components": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/dist\/bower_components",
-		"oF": 0
-		},
-	"\/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/dist\/dist",
+		"oAP": "\/docs\/bower_components",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -44,7 +38,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/dist\/README.html",
+		"oAP": "\/docs\/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -56,7 +50,7 @@
 	"\/src\/thrifter\/components\/newsletter\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/thrifter\/components\/newsletter\/index.html",
+		"oAP": "\/docs\/thrifter\/components\/newsletter\/index.html",
 		"oF": 0
 		},
 	"\/src\/thrifter\/components\/newsletter\/newsletter.scss": {
@@ -67,7 +61,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/newsletter\/newsletter.css",
+		"oAP": "\/docs\/thrifter\/components\/newsletter\/newsletter.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
@@ -75,14 +69,14 @@
 	"\/src\/thrifter\/components\/waves\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/thrifter\/components\/waves\/index.html",
+		"oAP": "\/docs\/thrifter\/components\/waves\/index.html",
 		"oF": 0
 		},
 	"\/src\/thrifter\/components\/waves\/thrifter-hero-wave.png": {
 		"ft": 32768,
 		"iS": 163965,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/waves\/thrifter-hero-wave.png",
+		"oAP": "\/docs\/thrifter\/components\/waves\/thrifter-hero-wave.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -93,7 +87,7 @@
 		"ft": 32768,
 		"iS": 202947,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/waves\/thrifter-hero-wave__img.png",
+		"oAP": "\/docs\/thrifter\/components\/waves\/thrifter-hero-wave__img.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -104,7 +98,7 @@
 		"ft": 32768,
 		"iS": 16491,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/waves\/thrifter-wave-sm-thin.png",
+		"oAP": "\/docs\/thrifter\/components\/waves\/thrifter-wave-sm-thin.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -115,7 +109,7 @@
 		"ft": 32768,
 		"iS": 16061,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/waves\/thrifter-wave-sm.png",
+		"oAP": "\/docs\/thrifter\/components\/waves\/thrifter-wave-sm.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -126,7 +120,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/thrifter\/components\/waves\/wave.svg",
+		"oAP": "\/docs\/thrifter\/components\/waves\/wave.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -136,7 +130,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/waves\/waves-min.js",
+		"oAP": "\/docs\/thrifter\/components\/waves\/waves-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -149,7 +143,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/dist\/thrifter\/components\/waves\/waves.css",
+		"oAP": "\/docs\/thrifter\/components\/waves\/waves.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -164,7 +158,7 @@
 	"displayValue": "labsjs",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 523883582
+	"lastBuiltDate": 523883800
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -420,7 +414,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "dist",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2272,7 +2266,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/dist"
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }
