@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mona - utmAppend</title>
+    <link rel="stylesheet" href="https://www.thrifter.com/sites/all/themes/mbn2_twig/css/base-th.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <style media="screen">
+      body {
+        margin: 0 auto;
+        max-width: 900px;
+        text-align: center;
+        font-family: "PxGrotesk-Light",sans-serif;
+      }
+      ul {
+        list-style: none;
+      }
+      p {
+        margin: 0 0 25px 0;
+        text-align: left;
+        font-size: 19px;
+      }
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="debugger">
+      <button onclick="window.location.href='?utm_source=fb&amp;utm_medium=retargeting&amp;utm_campaign=social'">assign utm</button>
+      <button onclick="window.location.href=window.location.pathname">unassign utm</button>
+    </div>
+    <h2>
+      We will keep our UTM source, medium &amp; campiagn when sending outbound links
+    </h2>
+    <ul>
+      <li><a class="utm-append" href="http://thrifter.com" target="_blank">Visit Thrifter</a></li>
+      <li><a class="utm-append" href="http://iMore.com" target="_blank">Visit iMore</a></li>
+      <li><a class="utm-append" href="http://AndroidCentral.com" target="_blank">Visit AndroidCentral</a></li>
+      <li><a class="utm-append" href="http://CrackBerry.com" target="_blank">Visit CrackBerry</a></li>
+      <li><a class="utm-append" href="http://WindowsCentral.com" target="_blank">Visit WindowsCentral</a></li>
+    </ul>
+
+    <script src="../../bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="./utm-append-min.js" charset="utf-8"></script>
+  </body>
+</html>

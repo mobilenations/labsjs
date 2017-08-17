@@ -8,6 +8,19 @@
   border-top: 0;
   border-bottom-left-radius: 228px;
   border-bottom-right-radius: 228px; }
+  .thrifter-smile.thrifter-smile--small {
+    border-width: 18px;
+    width: 168px;
+    height: 84px;
+    border-bottom-left-radius: 168px;
+    border-bottom-right-radius: 168px; }
+  @media (max-width: 767px) {
+    .thrifter-smile {
+      border-width: 18px;
+      width: 168px;
+      height: 84px;
+      border-bottom-left-radius: 168px;
+      border-bottom-right-radius: 168px; } }
 
 .thrifter-wave {
   position: relative; }
