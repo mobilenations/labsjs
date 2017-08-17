@@ -1,4 +1,5 @@
 $thrifter-smile-size: 114px;
+$thrifter-smile-size-small: 84px;
 .thrifter-smile {
   background: transparent;
   display: inline-block;
@@ -9,6 +10,20 @@ $thrifter-smile-size: 114px;
   border-top: 0;
   border-bottom-left-radius: $thrifter-smile-size * 2;
   border-bottom-right-radius: $thrifter-smile-size * 2;
+  &.thrifter-smile--small {
+    border-width: 18px;
+    width: $thrifter-smile-size-small * 2;
+    height: $thrifter-smile-size-small;
+    border-bottom-left-radius: $thrifter-smile-size-small * 2;
+    border-bottom-right-radius: $thrifter-smile-size-small * 2;
+  }
+  @media (max-width: 767px) {
+    border-width: 18px;
+    width: $thrifter-smile-size-small * 2;
+    height: $thrifter-smile-size-small;
+    border-bottom-left-radius: $thrifter-smile-size-small * 2;
+    border-bottom-right-radius: $thrifter-smile-size-small * 2;    
+  }
 }
 
 .thrifter-wave {
