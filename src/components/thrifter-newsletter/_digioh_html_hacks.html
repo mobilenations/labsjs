@@ -1,0 +1,333 @@
+<link rel="stylesheet" href="https://www.thrifter.com/sites/all/themes/mbn2_twig/css/base-th.css">
+<style>
+#layout {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  background: #0822dc;
+  box-sizing: border-box;
+  background: radial-gradient(ellipse farthest-corner at 0, #0822dc 0%, #ee493f 100%);
+  text-align: center; }
+
+#thrifter-newsletter-takeover__close::before {
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: #fff;
+  font-family: "FontAwesome";
+  content: '\f00d';
+  font-size: 24px; }
+  @media (max-width: 767px) {
+    #thrifter-newsletter-takeover__close::before {
+      font-size: 18px; } }
+
+#image1 {
+  display: block;
+  text-indent: -9999px;
+  display: block;
+  margin: 0 auto;
+  background: url(https://www.thrifter.com/sites/all/themes/mbn2_twig/assets/images/thrifter-logo.svg) center no-repeat;
+  width: 186px;
+  height: 55px; }
+  @media (max-width: 767px) {
+    .thrifter-newsletter-takeover__brand {
+      width: 140px;
+      height: 41px; } }
+
+#text1_wrapper {
+  margin: 10px 0 220px 0;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center; }
+  @media (max-width: 767px) {
+    #text1r {
+      margin-bottom: 100px;
+      font-size: 18px; } }
+
+  #text2, #text3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 2px; }
+  #text2 {
+    font-size: 36px; }
+    @media (max-width: 767px) {
+      #text2 {
+        font-weight: 100;
+        font-size: 24px; } }
+  #text3 {
+    font-weight: 100;
+    font-size: 24px; }
+    @media (max-width: 767px) {
+      #text3 {
+        font-size: 18px; } }
+
+#text2_wrapper-form {
+  margin: 30px 0 70px 0;
+  white-space: normal;
+  font-size: 0; }
+  @media (max-width: 767px) {
+    #text2_wrapper-form {
+      text-align: center; } }
+  #form_input_email, #button1 {
+    display: inline;
+    padding: 0 25px;
+    color: #4b4b4b;
+    font-weight: 300;
+    font-size: 24px;
+    border: 0;
+    padding: 0 25px;
+    width: 450px;
+    border-radius: 10px;
+    height: 70px;
+    line-height: 70px;
+    box-sizing: border-box;
+    outline: 0; }
+    @media (max-width: 767px) {
+      #form_input_email, #button1 {
+        font-size: 24px;
+        box-sizing: border-box;
+        width: 100%; } }
+  #form_input_email {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+    #form_input_email::-webkit-input-placeholder {
+      color: #4b4b4b; }
+    #form_input_email:-ms-input-placeholder {
+      color: #4b4b4b; }
+    #form_input_email::placeholder {
+      color: #4b4b4b; }
+    @media (max-width: 767px) {
+      #form_input_email {
+        text-align: center;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0; } }
+  #button1 {
+    color: #fff;
+    background: #f94c31;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+    @media (max-width: 767px) {
+      #button1 {
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0; } }
+.thrifter-smile {
+  background: transparent;
+  display: inline-block;
+  margin: 0;
+  width: 228px;
+  height: 114px;
+  border: 30px solid #fff;
+  border-top: 0;
+  border-bottom-left-radius: 228px;
+  border-bottom-right-radius: 228px; }
+  .thrifter-smile.thrifter-smile--small {
+    border-width: 18px;
+    width: 168px;
+    height: 84px;
+    border-bottom-left-radius: 168px;
+    border-bottom-right-radius: 168px; }
+@media (max-width: 767px) {
+.thrifter-smile {
+  border-width: 18px;
+  width: 168px;
+  height: 84px;
+  border-bottom-left-radius: 168px;
+  border-bottom-right-radius: 168px; }
+}
+.thrifter-wave {
+  position: relative; }
+  .thrifter-wave:before {
+    left: 0;
+    top: -10%;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    content: '';
+    background-image: url("thrifter-wave-sm.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: top center;
+    -webkit-animation: thrifter-wave 15s linear infinite;
+            animation: thrifter-wave 15s linear infinite;
+    background-position: 0 0;
+    overflow: hidden; }
+    p .thrifter-wave:before {
+      top: 0;
+      height: 25%; }
+
+@-webkit-keyframes thrifter-wave {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 200px 0; } }
+
+@keyframes thrifter-wave {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 200px 0; } }
+
+.thrifter-wave--separater {
+  margin: 10px 0;
+  min-height: 20px; }
+  .thrifter-wave--separater:before {
+    height: 100%; }
+
+.thrifter-wave--thin:before {
+  background-image: url("https://mobilenations.github.io/labsjs/thrifter/components/waves/thrifter-wave-sm-thin.png"); }
+
+.thrifter-wave-inview {
+  position: relative; }
+  .thrifter-wave-inview:before {
+    top: -10%;
+    position: absolute;
+    height: 30%;
+    content: '';
+    background: url("https://mobilenations.github.io/labsjs/thrifter/components/waves/thrifter-wave-sm.png") top repeat-x;
+    background-size: contain;
+    background-position: 0 0;
+    overflow: hidden;
+    width: 0px;
+    transition: width 1s;
+    -webkit-transform: translate3d(0);
+            transform: translate3d(0); }
+    p .thrifter-wave-inview:before {
+      top: 0;
+      height: 25%; }
+  .thrifter-wave-inview.thrifter-wave-inview--active:before {
+    transition: width 2s;
+    width: 100%; }
+
+.thrifter-hero-wave {
+  margin: 100px auto;
+  background: url("https://mobilenations.github.io/labsjs/thrifter/components/waves/thrifter-hero-wave.png") repeat-x;
+  width: 100%;
+  height: 468px;
+  -webkit-animation: thrifter-hero-wave 50s linear infinite;
+          animation: thrifter-hero-wave 50s linear infinite;
+  background-position: 0 0; }
+
+@-webkit-keyframes thrifter-hero-wave {
+  0% {
+    background-position: 0 0; }
+  50% {
+    background-position: 100px 0; }
+  100% {
+    background-position: 0 0; } }
+
+@keyframes thrifter-hero-wave {
+  0% {
+    background-position: 0 0; }
+  50% {
+    background-position: 100px 0; }
+  100% {
+    background-position: 0 0; } }
+
+.thrifter-hero-wave__container {
+  position: relative;
+  text-align: left;
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 1000px; }
+
+.thrifter-hero-wave__img {
+  width: auto;
+  height: 292px; }
+
+.thrifter-hero-wave__lines {
+  position: absolute;
+  margin: -100px 0 0 0;
+  top: 50%;
+  left: 300px;
+  -webkit-animation: thrifter-hero-wave__lines-lines 5s linear infinite;
+          animation: thrifter-hero-wave__lines-lines 5s linear infinite; }
+
+.thrifter-hero-wave__lines-line {
+  display: table;
+  width: auto;
+  padding: 0 15px 5px 15px;
+  color: #1A1A1A;
+  font-family: "PxGrotesk-Light";
+  font-size: 34px;
+  line-height: 38px;
+  background: #fff;
+  margin: 3px; }
+
+@-webkit-keyframes thrifter-hero-wave__lines-lines {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px); }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px); } }
+
+@keyframes thrifter-hero-wave__lines-lines {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px); }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px); } }
+</style>
+
+<style>
+/* more fixes */
+#html2_wrapper {
+  width: calc(100% - 50px) !important;
+}
+#html3_wrapper {
+  width: 100% !important;
+  left: 0 !important;
+}
+#button2_wrapper {
+  top: 25px !important;
+  right: 25px !important;
+  left: auto !important;
+  width: 25px !important;
+}
+@media (min-width: 767px) {
+  #text2 {
+    font-size: 36px !important;
+  }
+  #text3, #form_input_email, #button1 {
+    font-size: 24px !important;
+  }
+
+  div#form_wrapper {
+    margin: 0;
+    top: 430px !important;
+    left: 50px !important;
+    width:  450px !important;
+    box-sizing: border-box;
+  }
+
+  div#button1_wrapper {
+    top: 445px !important;
+    right: 50px !important;
+    width: 450px !important;
+    left: auto !important;
+  }
+
+  #html3_wrapper {
+    top: 605px !important;
+  }
+
+}
+
+</style>
