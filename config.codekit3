@@ -47,6 +47,36 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/src\/components\/mona-article-list-captioned\/article-list-captioned__img.png": {
+		"ft": 32768,
+		"iS": 202947,
+		"oA": 0,
+		"oAP": "\/docs\/components\/mona-article-list-captioned\/article-list-captioned__img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/mona-article-list-captioned\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/components\/mona-article-list-captioned\/index.html",
+		"oF": 0
+		},
+	"\/src\/components\/mona-article-list-captioned\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/docs\/components\/mona-article-list-captioned\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/components\/mona-ext-uuid\/ext-uuid.js": {
 		"ft": 64,
 		"mi": 0,
@@ -108,22 +138,22 @@
 		"oAP": "\/docs\/components\/thrifter-waves\/index.html",
 		"oF": 0
 		},
-	"\/src\/components\/thrifter-waves\/thrifter-hero-wave.png": {
+	"\/src\/components\/thrifter-waves\/thrifter-wave-rainbowbg.png": {
 		"ft": 32768,
-		"iS": 163965,
+		"iS": 117837,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-waves\/thrifter-hero-wave.png",
+		"oAP": "\/docs\/components\/thrifter-waves\/thrifter-wave-rainbowbg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/components\/thrifter-waves\/thrifter-hero-wave__img.png": {
+	"\/src\/components\/thrifter-waves\/thrifter-wave-rainbowbg__before.png": {
 		"ft": 32768,
-		"iS": 202947,
+		"iS": 163965,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-waves\/thrifter-hero-wave__img.png",
+		"oAP": "\/docs\/components\/thrifter-waves\/thrifter-wave-rainbowbg__before.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -194,7 +224,7 @@
 	"displayValue": "labsjs",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 524686887
+	"lastBuiltDate": 525013721
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
