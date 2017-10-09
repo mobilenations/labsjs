@@ -6,7 +6,8 @@
   height: 100%;
   padding: 25px;
   background: #0822dc;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background: radial-gradient(ellipse farthest-corner at 0, #0822dc 0%, #ee493f 100%);
   font-family: "PxGrotesk-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center; }
@@ -92,12 +93,14 @@
     border-radius: 10px;
     height: 70px;
     line-height: 70px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     outline: 0; }
     @media (max-width: 767px) {
       .thrifter-newsletter-takeover__subscribe-form input[type=text], .thrifter-newsletter-takeover__subscribe-form button {
         font-size: 24px;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         width: 100%; } }
   .thrifter-newsletter-takeover__subscribe-form input[type=text] {
     border-top-right-radius: 0;

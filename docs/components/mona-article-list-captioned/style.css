@@ -1,6 +1,7 @@
 .article-list-captioned__inner {
   width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: table;
   margin: 0 auto;
   padding: 100px 0;
@@ -62,7 +63,8 @@
 @media (min-width: 768px) {
   .article-list-captioned__bit--small {
     width: 50%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     float: left;
     position: relative;
     text-align: left;

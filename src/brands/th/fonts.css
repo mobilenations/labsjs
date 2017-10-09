@@ -1,0 +1,34 @@
+/*Grotesk Fonts */
+
+@font-face {
+  font-family: 'PxGrotesk-Regular';
+  src: url('./fonts/PxGrotesk-Regular.otf');
+  src:
+          url("./fonts/PxGrotesk-Regular.otf?#iefix") format("embedded-opentype"),
+          url("./fonts/PxGrotesk-Regular.svg") format("svg"),
+          url("./fonts/PxGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PxGrotesk-Light';
+  src: url('./fonts/PxGrotesk-Light.otf');
+  src:
+          url("./fonts/PxGrotesk-Light.otf?#iefix") format("embedded-opentype"),
+          url("./fonts/PxGrotesk-Light.svg") format("svg"),
+          url("./fonts/PxGrotesk-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PxGrotesk-Bold';
+  src: url('./fonts/PxGrotesk-Bold.otf');
+  src:
+          url("./fonts/PxGrotesk-Bold.otf?#iefix") format("embedded-opentype"),
+          url("./fonts/PxGrotesk-Bold.svg") format("svg"),
+          url("./fonts/PxGrotesk-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

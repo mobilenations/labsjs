@@ -7,7 +7,7 @@
 		"uuidString": "C4267745-4505-4A41-9441-F4F96D496CCA"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -27,7 +27,13 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "\/docs\/bower_components",
-		"oF": 3
+		"oF": 2
+		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -46,6 +52,78 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/src\/brands\/th\/common.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/docs\/brands\/th\/common-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/src\/brands\/th\/fonts.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/docs\/brands\/th\/fonts-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/src\/brands\/th\/fonts\/PxGrotesk-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/fonts\/PxGrotesk-Bold.otf",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/fonts\/PxGrotesk-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/fonts\/PxGrotesk-Bold.woff",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/fonts\/PxGrotesk-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/fonts\/PxGrotesk-Light.otf",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/fonts\/PxGrotesk-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/fonts\/PxGrotesk-Light.woff",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/fonts\/PxGrotesk-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/fonts\/PxGrotesk-Regular.otf",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/fonts\/PxGrotesk-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/fonts\/PxGrotesk-Regular.woff",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/header.html",
+		"oF": 0
+		},
+	"\/src\/brands\/th\/img\/thrifter-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/brands\/th\/img\/thrifter-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/components\/mona-article-list-captioned\/article-list-captioned__img.png": {
 		"ft": 32768,
@@ -79,6 +157,7 @@
 		},
 	"\/src\/components\/mona-ext-uuid\/ext-uuid.js": {
 		"ft": 64,
+		"ma": 1,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/docs\/components\/mona-ext-uuid\/ext-uuid-min.js",
@@ -100,12 +179,256 @@
 		},
 	"\/src\/components\/mona-utm-append\/utm-append.js": {
 		"ft": 64,
+		"ma": 1,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/docs\/components\/mona-utm-append\/utm-append-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/fashion.png": {
+		"ft": 32768,
+		"iS": 2490,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/fashion.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/fitness.png": {
+		"ft": 32768,
+		"iS": 1624,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/fitness.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/freebie.png": {
+		"ft": 32768,
+		"iS": 3297,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/freebie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/gaming-icon.png": {
+		"ft": 32768,
+		"iS": 16146,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/gaming-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/gaming.png": {
+		"ft": 32768,
+		"iS": 4019,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/gaming.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/home.png": {
+		"ft": 32768,
+		"iS": 2152,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/reader-choice.png": {
+		"ft": 32768,
+		"iS": 3011,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/reader-choice.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/readers-choice-icon.png": {
+		"ft": 32768,
+		"iS": 2393,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/readers-choice-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/amazon-fire-stick.png": {
+		"ft": 32768,
+		"iS": 102102,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/amazon-fire-stick.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/aukey-car-charger-aluminum.jpg": {
+		"ft": 16384,
+		"iS": 60289,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/aukey-car-charger-aluminum.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/dolce-gabbana.png": {
+		"ft": 32768,
+		"iS": 173437,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/dolce-gabbana.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/dropbox-plus.png": {
+		"ft": 32768,
+		"iS": 111657,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/dropbox-plus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/enter-win-nintendo.png": {
+		"ft": 32768,
+		"iS": 303290,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/enter-win-nintendo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/jessica-bodey.jpg": {
+		"ft": 16384,
+		"iS": 3437,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/jessica-bodey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/john-levite.jpg": {
+		"ft": 16384,
+		"iS": 6281,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/john-levite.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/rene-ritchie.jpg": {
+		"ft": 16384,
+		"iS": 5195,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/rene-ritchie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/seagate-expansion-2tb.jpg": {
+		"ft": 16384,
+		"iS": 103869,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/seagate-expansion-2tb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/super-mario-odyssey.jpg": {
+		"ft": 16384,
+		"iS": 28525,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/super-mario-odyssey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/sample\/urban-decay-naked-heat.jpg": {
+		"ft": 16384,
+		"iS": 24447,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/sample\/urban-decay-naked-heat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/tech.png": {
+		"ft": 32768,
+		"iS": 1541,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/tech.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/toys.png": {
+		"ft": 32768,
+		"iS": 2681,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/toys.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/components\/thrifter-deals\/index.html",
+		"oF": 0
+		},
+	"\/src\/components\/thrifter-deals\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/src\/components\/thrifter-newsletter\/_digioh_html_hacks.html": {
 		"ft": 8192,
@@ -194,6 +517,7 @@
 		},
 	"\/src\/components\/thrifter-waves\/waves.js": {
 		"ft": 64,
+		"ma": 1,
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/docs\/components\/thrifter-waves\/waves-min.js",
@@ -224,7 +548,7 @@
 	"displayValue": "labsjs",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 525013721
+	"lastBuiltDate": 529020936
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -628,6 +952,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -635,6 +963,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -732,6 +1064,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -751,6 +1087,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -879,6 +1219,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1424,6 +1768,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1492,6 +1840,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1531,6 +1883,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2164,6 +2520,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/bower_components",
 	"sourceFolderName": "src",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
