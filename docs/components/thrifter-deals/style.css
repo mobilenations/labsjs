@@ -238,7 +238,8 @@
     .th-deals-sponsored__deal-title:hover {
       opacity: .8; }
   .th-deals-sponsored__deal-description {
-    font-size: 18px; }
+    font-size: 18px;
+    font-family: 'PxGrotesk-Light'; }
     @media (max-width: 767px) {
       .th-deals-sponsored__deal-description {
         display: none; } }
