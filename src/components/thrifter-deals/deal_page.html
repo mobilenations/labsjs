@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Deal Page - Thrifter Deals</title>
+		<link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="../../bower_components/normalize-css/normalize.css" />
+		<link rel="stylesheet" href="../../bower_components/fancybox/dist/jquery.fancybox.min.css" />
+		<link rel="stylesheet" href="../../brands/th/fonts-min.css" />
+		<link rel="stylesheet" href="../../brands/th/common-min.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body class="deal-flow-body">
+		<div id="header"></div>
+		<div>
+			<div class="deal-page">
+				<div class="deal-page__info">
+					<h1 class="deal-page__info-title">Get a year of Dropbox Plus cloud service for $69</h1>
+					<div class="deal-page__info-social">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-pinterest"></a>
+					</div>
+					<div class="deal-page__info-found-by">
+						<div>
+							<div class="deal-page__info-author">Found by  John Levite</div>
+							<div class="deal-page__info-liked-by">liked by 10 others</div>
+						</div>
+						<a href="#" class="deal-page__info-author-img"><img src="assets/img/sample/john-levite.jpg" /></a>
+					</div>
+					<div class="deal-page__info-buy">
+						<a href="#" class="deal-page__info-buy-button">Buy on Dropbox</a>
+					</div>
+				</div>
+				<div class="deal-page__sidebar">
+					<a href="#" class="deal-page__sidebar-img"><img src="assets/img/sample/dropbox-plus.png" /></a>
+				</div>
+				<div class="deal-page__comments">
+					<div class="deal-page__comments-total">13 comments</div>
+					<div class="deal-page__comment">
+						<a href="#" class="deal-page__comment-avatar"><img src="assets/img/sample/jessica-bodey.jpg" /></a>
+						<p class="deal-page__comment-message">Dropbox has saved my life so many times, from losing phones to crashing computers. Great to see such a good deal from them!</p>
+					</div>
+					<div class="deal-page__comment">
+						<a href="#" class="deal-page__comment-avatar"><img src="assets/img/sample/rene-ritchie.jpg" /></a>
+						<p class="deal-page__comment-message">I’m all over this! Anyone know if we can purchase
+						multiple years at this same rate?</p>
+					</div>
+					<a href="#" class="deal-page__comments-more">View more comments</a>
+				</div>
+				<div class="deal-page__footer">
+					<h3>Join Thrifter to find &amp; comment on the best deals today!</h3>
+					<a href="#" class="deal-page__footer-cta">Sign Up</a>
+				</div>
+			</div>
+		</div>
+		<script src="../../bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+		<script src="../../bower_components/fancybox/dist/jquery.fancybox.min.js" charset="utf-8"></script>
+		<script>
+		$.get( "../../brands/th/header.html", function( data ) {
+			$('#header').html(data);
+		});
+		</script>
+	</body>
+</html>

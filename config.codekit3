@@ -187,33 +187,44 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/fashion.png": {
+	"\/src\/components\/thrifter-deals\/assets\/img\/editors-choice-icon.png": {
 		"ft": 32768,
-		"iS": 2490,
+		"iS": 2393,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/fashion.png",
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/editors-choice-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/fitness.png": {
+	"\/src\/components\/thrifter-deals\/assets\/img\/fashion-icon.png": {
 		"ft": 32768,
-		"iS": 1624,
+		"iS": 18780,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/fitness.png",
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/fashion-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/freebie.png": {
+	"\/src\/components\/thrifter-deals\/assets\/img\/fitness-icon.png": {
 		"ft": 32768,
-		"iS": 3297,
+		"iS": 16666,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/freebie.png",
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/fitness-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/assets\/img\/freebie-icon.png": {
+		"ft": 32768,
+		"iS": 17456,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/freebie-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -231,33 +242,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/gaming.png": {
+	"\/src\/components\/thrifter-deals\/assets\/img\/home-icon.png": {
 		"ft": 32768,
-		"iS": 4019,
+		"iS": 16740,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/gaming.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/home.png": {
-		"ft": 32768,
-		"iS": 2152,
-		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/home.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/reader-choice.png": {
-		"ft": 32768,
-		"iS": 3011,
-		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/reader-choice.png",
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/home-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -389,27 +378,33 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/tech.png": {
+	"\/src\/components\/thrifter-deals\/assets\/img\/tech-icon.png": {
 		"ft": 32768,
-		"iS": 1541,
+		"iS": 17054,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/tech.png",
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/tech-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/components\/thrifter-deals\/assets\/img\/toys.png": {
+	"\/src\/components\/thrifter-deals\/assets\/img\/toys-icon.png": {
 		"ft": 32768,
-		"iS": 2681,
+		"iS": 17360,
 		"oA": 0,
-		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/toys.png",
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/img\/toys-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/src\/components\/thrifter-deals\/deal_page.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/components\/thrifter-deals\/deal_page.html",
+		"oF": 0
 		},
 	"\/src\/components\/thrifter-deals\/index.html": {
 		"ft": 8192,
