@@ -400,6 +400,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/components\/thrifter-deals\/assets\/js\/scripts.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/docs\/components\/thrifter-deals\/assets\/js\/scripts-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/src\/components\/thrifter-deals\/deal_page.html": {
 		"ft": 8192,
 		"oA": 2,

@@ -25,7 +25,7 @@
 					<div class="deal-page__info-found-by">
 						<div>
 							<div class="deal-page__info-author">Found by  John Levite</div>
-							<div class="deal-page__info-liked-by">liked by 10 others</div>
+							<div class="deal-page__info-liked-by">viewed by by 10 others</div>
 						</div>
 						<a href="#" class="deal-page__info-author-img"><img src="assets/img/sample/john-levite.jpg" /></a>
 					</div>
@@ -47,7 +47,11 @@
 						<p class="deal-page__comment-message">I’m all over this! Anyone know if we can purchase
 						multiple years at this same rate?</p>
 					</div>
-					<a href="#" class="deal-page__comments-more">View more comments</a>
+					<div class="deal-page__comment-form">
+						<textarea class="deal-page__comment-box" placeholder="Leave a comment and tell us how you feel about this deal!"></textarea>
+						<input type="button" class="deal-page__comment-btn" value="Comment" />
+					</div>
+					<a href="#" class="deal-page__comment-leave">Leave a comment</a>
 				</div>
 				<div class="deal-page__footer">
 					<h3>Join Thrifter to find &amp; comment on the best deals today!</h3>
@@ -57,6 +61,7 @@
 		</div>
 		<script src="../../bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
 		<script src="../../bower_components/fancybox/dist/jquery.fancybox.min.js" charset="utf-8"></script>
+		<script src="assets/js/scripts-min.js" charset="utf-8"></script>
 		<script>
 		$.get( "../../brands/th/header.html", function( data ) {
 			$('#header').html(data);
